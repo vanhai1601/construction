@@ -1,0 +1,78 @@
+.content {
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid #f0f0f0;
+    padding: 15px 20px;
+    height: 100vh;
+    border-radius: 5px;
+}
+.menu {
+    margin-bottom: 20px;
+}
+ul {
+    border-bottom: 1px solid #e6e3e3;
+}
+a.nav-link {
+    color: black;
+    font-weight: 500;
+    padding: 10px 5px;
+    cursor: pointer;
+}
+a.nav-link:hover {
+    color: #124096;
+}
+a.active  {
+    border-bottom: 2px solid #4b50e2;
+    font-weight: 650;
+}
+li {
+    padding: 0 8px;
+}
+
+.panel-heading {
+    background-color: #f1f8ff;
+    padding: 5px 15px;
+    border-radius: 4px;
+}
+.panel-heading span {
+    display: block;
+    color: #3471a5;
+    padding: 8px 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+.panel-body {
+    border: 1px solid #dbdbdb;
+    border-top: none;
+    padding: 15px;
+}
+.panel-danger {
+    margin-bottom: 30px;
+}
+.panel-body input {
+    background-color: #eaeaea;
+    border-radius: 4px;
+    height: 40px;
+}
+
+.input_radio {
+    width: 20px;
+    cursor: pointer;
+}
+#nguonchiphi {
+    margin-left: 40px;
+}
+.radio_text {
+    position: relative;
+    top:-15px;
+    left: 10px;
+}
+
+#type_code {
+    position: relative;
+    top: -24px;
+}
+.select_code {
+    position: relative;
+    top: -10px;
+}
